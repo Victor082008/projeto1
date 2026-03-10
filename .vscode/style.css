@@ -73,7 +73,8 @@ body * {
   left: 0;
   z-index: 1;
   transform: translateY(-50%);
-  animation: slide-back 0.2;
+
+  animation: slide-back 0.9;
 }
 
 .light #switch button {
@@ -168,7 +169,7 @@ footer {
     left: 50%;
   }
 }
-@keyframes silide-back {
+@keyframes slide-back {
   from {
     left: 50%;
   }
